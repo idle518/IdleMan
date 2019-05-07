@@ -10,7 +10,7 @@ namespace Idle.Tools.Instrument
     /// use host link protocal you need to change plc mode to monitor mode.
     /// </summary>
     /// 
-    public class OmronPlc:SerialPortInstrument,IPLC
+    public class OmronPlc:SerialPortInstrument
     {
         public enum Area{ X=0X30,Y=0x30,WR=0X31,HR=0X32,AR=0X33,DM=0X02,NONE=-1};
     	public enum MODE{BIT=0,WORD=0x80};
